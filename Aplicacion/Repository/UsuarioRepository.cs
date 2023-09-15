@@ -8,7 +8,7 @@ using Persistencia;
 
 namespace Aplicacion.Repository;
 
-public class UsuarioRepository : GenericRepository<Usuario>, IUsuario
+public class UsuarioRepository : GenericRepository<Usuario>, IUsuarioRepository
 {
      private readonly DbAppContext _context;
 

@@ -22,5 +22,9 @@ namespace Persistencia
          public DbSet<Rol> Roles { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<UsuarioRoles> UsuariosRoles { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Chef> Chefs { get; set; }
+        public DbSet<Hamburguesa> Hamburguesas { get; set; }
+        public DbSet<Ingrediente> Ingredientes { get; set; }
     }
 }

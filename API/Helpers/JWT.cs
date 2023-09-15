@@ -1,5 +1,3 @@
-
-
 namespace API.Helpers;
 
     public class JWT
